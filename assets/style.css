@@ -6,6 +6,11 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+  }
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -74,6 +79,9 @@ body {
 #about-me {
 	flex: 2
 }
+#about-me h5{
+	font-size: 1rem;
+}
 .about-me__title {
 	margin-top: 1em;
 	margin-bottom: 60px;
@@ -84,6 +92,7 @@ body {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size: 1rem;
 }
 #about-me p {
 	width: 80%;
@@ -102,7 +111,7 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #665500;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -195,7 +204,11 @@ body {
 	background-color: #D8D3A8 ;
 	position: relative;
 	padding-inline: 100px;
-	padding-block: 100px;
+	padding-block: 40px 100px;
+}
+#contact h2 {
+	text-align: center;
+	padding-bottom: 2rem;
 }
 
 #contact .container {
@@ -255,7 +268,7 @@ input[type="submit"] {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
-	#about-me h6, #about-me p {
+	#about-me h5, #about-me p {
 		width: 100%;
 	}
 }
