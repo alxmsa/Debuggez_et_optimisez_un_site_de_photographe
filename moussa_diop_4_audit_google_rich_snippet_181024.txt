@@ -1,0 +1,7 @@
+Audit Google Rich Snippet :
+
+Version Desktop:
+https://search.google.com/test/rich-results/result?id=kNjlv_Ms8Rmsq5AUdNaYag
+
+Version Mobile:
+https://search.google.com/test/rich-results/result?id=Inb3m163V1a_rWEELDDq5A
